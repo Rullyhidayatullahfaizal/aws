@@ -1,0 +1,27 @@
+{
+  "name": "final-question",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ujian-terakhir amazon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "body-parser": "^1.20.3",
+    "express": "^4.20.0",
+    "mysql2": "^3.11.2",
+    "nodemon": "^3.1.4",
+    "prisma": "^5.19.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "globals": "^15.9.0"
+  }
+}
